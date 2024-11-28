@@ -8,7 +8,7 @@ import { CgMail } from "react-icons/cg";
 
 const Main = () => {
   return (
-  <div className="flex flex-col w-[100%] h-[1200px] gap-[10px]"> 
+  <div className="flex flex-col w-full h-[1200px] gap-[10px]"> 
  <div className=" w-[100%] h-[832px] bg-slate-900 relative">
      <div className="w-[600PX] h-[832px]">
         <Image src= {CodeImage} alt="Governer Sindh Image" className="w-[500px] h-[832px] absolute left-[35%]"/>
@@ -19,18 +19,16 @@ const Main = () => {
 </div> 
 
     <div className="w-[200px] h-[50px]">
-    <h1 className="text-[#fa4d2ffa] text-[40px] absolute top-[250px] left-[1200px]">Skill Up, Level Up</h1>
+    <h1 className="text-[#fa4d2ffa] text-[40px] absolute top-[250px] left-[1450px]">Skill Up, Level Up</h1>
     </div>
 
     <div className="flex w-[600px] h-[40px] text-center">
-    <p className="text-[#FFFFFF] text-[30px] absolute top-[350px] left-[1100px]"><q>Discover, learn, and master. Unlock 
-      your hidden potential and transform your life. The to grow 
-      is with you - ignite it!</q>
+    <p className="text-[#FFFFFF] text-[30px] absolute top-[350px] left-[1220px]">Discover, learn, and master. Unlock your hidden potential<br/> and transform your life. The to grow is with you<br/> - ignite it!
       </p>
     </div>
 
     <div>
-        <button className="w-[200px] h-[50px] text-[#fa4d2ffa] text-[25px] underline absolute top-[750px] left-[1100px] hover:text-[#FFFFFF] ">Learn More</button>
+        <button className="w-[200px] h-[50px] text-[#fa4d2ffa] text-[25px] underline absolute top-[750px] left-[1250px] hover:text-[#FFFFFF] ">Learn More</button>
     </div>
   
 <div>
@@ -41,9 +39,9 @@ const Main = () => {
 </div>
 </div>
  
- <div className="flex flex-col justify-center text-center w-[100%] h-[348px] text-[#ffffff] bg-slate-800 relative">
+ <div className="flex flex-col justify-center text-center w-full h-[348px] text-[#ffffff] bg-slate-800 relative">
 <div>
-  <h1 className="font-bold font-sans text-[30px] absolute top-[30px] px-[10px]">Certified Cloud Applied Generative AI Engineer (GenEng) and Solopreneur Developing Billion-Dollar Valued Developers and Solopreneurs</h1>
+  <h1 className="font-bold font-sans text-[30px] absolute top-[30px] px-[40px]">Certified Cloud Applied Generative AI Engineer (GenEng) and Solopreneur Developing Billion-Dollar Valued Developers and Solopreneurs</h1>
 </div>
 
 <div>

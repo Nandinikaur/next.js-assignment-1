@@ -10,12 +10,12 @@ const Initiatives = () => {
         <div className="flex flex-col w-[100%] h-[1200px] bg-slate-900 font-sans gap-[30px]">
         
         <div className="flex justify-center items-center py-[50px]">
-            <h1 className="text-white text-[60px] font-semi-bold">Our Initiatives</h1>
+            <h1 className="text-center text-white text-[60px] font-semi-bold">Our Initiatives</h1>
         </div>
 
     <div className="flex flex-col gap-[20px] justify-center items-center">
 
-        <div className="flex flex-row w-[80%] h-[200px]">
+        <div className="flex flex-row w-[80%] h-[200px] justify-center">
             <div className="flex justify-end w-[350px] h-[200px] bg-orange-600">
                 <Image src={Work1} alt="initiatives" className="w-[300px] h-[200px]"/>
             </div>
@@ -26,7 +26,7 @@ const Initiatives = () => {
             </div>
         </div>
 
-        <div className="flex flex-row w-[80%] h-[200px]">
+        <div className="flex flex-row w-[80%] h-[200px] justify-center">
      <div className="flex justify-end w-[350px] h-[200px] bg-orange-600">
          <Image src={Work2} alt="initiatives" className="w-[300px] h-[200px]"/>
      </div>
@@ -36,7 +36,7 @@ const Initiatives = () => {
      </div>
  </div>
 
- <div className="flex flex-row w-[80%] h-[200px]">
+ <div className="flex flex-row w-[80%] h-[200px] justify-center">
      <div className="flex justify-end w-[350px] h-[200px] bg-orange-600">
          <Image src={Work3} alt="initiatives" className="w-[300px] h-[200px]"/>
      </div>
@@ -46,7 +46,7 @@ const Initiatives = () => {
      </div>
  </div>
 
- <div className="flex flex-row w-[80%] h-[200px]">
+ <div className="flex flex-row w-[80%] h-[200px] justify-center">
      <div className="flex justify-end w-[350px] h-[200px] bg-orange-600">
          <Image src={Work4} alt="initiatives" className="w-[300px] h-[200px]"/>
      </div>

@@ -7,7 +7,7 @@ import Course from "../assets/Online-courses.jpg"
 const Courses = () => {
     return(
 
-    <div className="flex flex-col w-[100%] h-[1200px] bg-slate-900 font-sans gap-[20px]">
+    <div className="flex flex-col w-full h-[1200px] bg-slate-900 font-sans gap-[20px]">
         <div className="w-[100%] h-[200px] relative">
         <div>
             <h1 className="font-bold text-[50px] text-[#ffffff] absolute top-[40px] pl-[20px]">OUR COURSES</h1>
@@ -54,13 +54,13 @@ const Courses = () => {
         </div>
 
         
-        <div className="flex w-[700px] h-[510px] border-l-[12px] border-b-[12px] absolute left-[982px] rounded-bl-[30%]"></div>
-        <Image src={Codeimage} alt="code" className="w-[690px] h-[500px] absolute left-[990px] rounded-bl-[30%]"/>
+        <div className="flex w-[800px] h-[510px] border-l-[12px] border-b-[12px] absolute left-[1218px] rounded-bl-[30%]"></div>
+        <Image src={Codeimage} alt="code" className="w-[790px] h-[500px] absolute left-[1225px] rounded-bl-[30%]"/>
         </div>
 
-        <div className="flex w-[615px] h-[615px] border-[15px] absolute top-[640px] left-[1050px] rounded-[20%]"></div>
+        <div className="flex w-[715px] h-[615px] border-[15px] absolute top-[640px] left-[1260px] rounded-[20%]"></div>
         
-    <Image src={Course} alt="course" className="w-[587px] h-[587px] absolute top-[655px] left-[1064px] rounded-[18%]"/>
+    <Image src={Course} alt="course" className="w-[685px] h-[586px] absolute top-[655px] left-[1275px] rounded-[18%]"/>
     
     </div>
     );

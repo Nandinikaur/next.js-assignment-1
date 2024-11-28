@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image"; 
 import  Background from "../assets/bg_house.jpg";
 
+
 const Enroll = () => {
     return(
        
@@ -9,17 +10,17 @@ const Enroll = () => {
                 <Image src={Background} alt="background" className="w-full h-[1200px] blur-[5px]"/>
         
 
-            <div className="flex flex-col justify-center items-center gap-[40px]">
+            <div className="flex flex-col justify-center items-center gap-[20px]">
 
-       <div className="font-sans w-[1200px] h-[80px] absolute top-[80px] font-bold text-[50px]">
+       <div className="font-sans w-[1200px] h-[80px]  absolute top-[80px] font-bold text-[50px]">
         <h1>Enroll Now For Brighten Up Your Future With Us</h1>
        </div>
 
-       <div className="font-sans absolute top-[200px] font-medium text-[25px] text-lime-950">
+       <div className="font-sans absolute top-[200px] font-medium text-[30px] text-lime-950">
         <p>Tuition Free Education Program on Latest Technologies</p>
         </div>
 
-       <div className="font-sans absolute top-[280px] font-medium text-[25px] text-cyan-950">
+       <div className="font-sans absolute top-[280px] font-medium text-[30px] text-cyan-950">
         <p>Certified Cloud Applied Generative AI Engineer (GenEng)</p>
        </div>
 
